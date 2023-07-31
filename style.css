@@ -1,0 +1,427 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 96px;
+}
+
+.topo {
+    position: fixed;
+    width: 1440px;
+    height: 96px;
+    flex-shrink: 0;
+    background: #7CA934;
+    z-index: 1;
+}
+#logo-Topo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 135px;
+}
+.links {
+    display: flex;
+    height: 96px;
+    width: 1440px;
+}
+.topo a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+}
+#link-1 {
+    padding-top: 32px;
+    padding-right: 57px;
+    padding-left: 549px;
+}
+#link-2 {
+    padding-top: 32px;
+    padding-right: 57px;
+}
+#link-3 {
+    padding-top: 32px;
+    padding-right: 57px;
+}
+#link-4 {
+    padding-top: 32px;
+    padding-right: 147px;
+}
+.espaco {
+    width: 1440px;
+    height: 96px;
+    flex-shrink: 0;
+}
+
+#menu-1 {
+    display: flex;
+    width: 1440px;
+    height: 800px;
+    flex-shrink: 0;
+    background-image: url(imagens/fundoMenuUm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formulario {
+    display: flex;
+    width: 470px;
+    height: 725px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 6px 12px 0px rgba(171, 190, 209, 0.30);
+    margin-top: 33px;
+    margin-left: 835px;
+    margin-bottom: 42px;
+    margin-right: 135px;
+}
+#titulo-formulario {
+    
+    color: #7CA934;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; 
+    padding-top: 34px;
+    padding-left: 30px;
+    padding-bottom: 627px;
+    padding-right: 30px;
+}
+input {
+    font-family: Poppins;
+    font-size: larger;
+}
+#nome {
+    color: #166282;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    padding-top: 126px;
+    padding-left: 33px;
+}
+#bloco-n {
+    position: absolute;
+    width: 404px;
+    height: 54px;
+    flex-shrink: 0;
+    margin-top: 165px;
+    margin-left: 30px;
+    margin-bottom: 36px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #ABBED1;    
+}
+#email {
+        color: #166282;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        padding-top: 232px;
+        padding-left: 33px;    
+}
+#bloco-e {
+    position: absolute;
+    width: 404px;
+    height: 54px;
+    flex-shrink: 0;
+    margin-top: 271px;
+    margin-left: 30px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #ABBED1;  
+}
+#telefone {
+    color: #166282;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    padding-top: 338px;
+    padding-left: 33px; 
+}
+#bloco-t {
+    position: absolute;
+    width: 404px;
+    height: 54px;
+    flex-shrink: 0;
+    margin-top: 377px;
+    margin-left: 33px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #ABBED1;  
+}
+#mensagem {
+    color: #166282;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    padding-top: 444px;
+    padding-left: 33px; 
+}
+#bloco-m {
+    position: absolute;
+    width: 404px;
+    height: 118px;
+    flex-shrink: 0;
+    margin-top: 483px;
+    margin-left: 33px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #ABBED1;  
+
+}
+#botao-enviar {
+    position: absolute;
+    width: 402px;
+    padding: 16px 32px;
+    color: #FFF;
+    margin-top: 642px;
+    margin-left: 35px;
+    border-radius: 4px;
+    border: 2px;
+    background-color: #7CA934;
+}
+#botao-enviar:hover {
+    background-color: #235C43;
+}
+
+#menu-2{
+    display: flex;
+    width: 1440px;
+    height: 500px;
+}
+.textos-listas {
+    width: 720px;
+    height: 500px;
+}
+#titulo-Menu-Um{
+    color: #7CA934;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 88px;
+    padding-left: 135px;
+}
+#texto-1 {
+    width: 570px;
+    height: 101px;
+    flex-shrink: 0;
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+    padding-left: 135px;
+}
+#lista-1 {
+    width: 570px;
+    height: 171px;
+    flex-shrink: 0;
+    padding-top: 10px;
+    padding-left: 160px;
+    list-style-type: disc;
+}
+#elementos {
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.04px;
+    
+}
+.img-Menu-2 {
+    width: 720px;
+    height: 500px;
+}
+#img-2 {
+    width: 570px;
+    height: 400px;
+    flex-shrink: 0;
+    padding-top: 52px;
+    padding-left: 30px;
+
+}
+
+#menu-3 {
+    flex-direction: column;
+    width: 1440px;
+    height: 387px;  
+}
+#titulo-Menu-Tres {
+    color: #7CA934;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 135px;
+    margin-right: 735px;
+}
+#blocos {
+    display: flex;
+    margin-left: 135px;
+    padding-top: 10px;
+}
+#bloco-1 {
+    display: flex;
+    width: 370px;
+    height: 293px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-right: 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 8px 0px rgba(171, 190, 209, 0.40);
+}
+#bloco-2 {
+    display: flex;
+    width: 370px;
+    height: 293px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-right: 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 8px 0px rgba(171, 190, 209, 0.40);
+}
+#bloco-3 {
+    display: flex;
+    width: 370px;
+    height: 293px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 8px 0px rgba(171, 190, 209, 0.40);
+}
+.fundo-Bloco {
+    width: 126px;
+    height: 126px;
+    flex-shrink: 0;
+    padding-top: 15px;
+    padding-bottom: 152px;
+    padding-left: 20px;
+    padding-right: 224px;
+}
+.beneficio-Bloco {
+    position: absolute;
+    width: 192px;
+    height: 36px;
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 153px;
+    padding-bottom: 104px;
+    padding-left: 20px;
+    padding-right: 158px;
+}
+.texto-Bloco{
+    position: absolute;
+    width: 340px;
+    height: 89px;
+    flex-shrink: 0;
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 189px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#menu-4 {
+    width: 1440px;
+    height: 498px;
+}
+#bloco-fechado {
+    display: flex;
+    width: 1170px;
+    height: 83px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 4px 8px 0px rgba(171, 190, 209, 0.40);
+    padding-top: 10px;
+    margin-left: 135px;
+    margin-bottom: 19px;
+}
+#titulo-bloco{
+    width: 401px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #4D4D4D;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    padding-top: 27px;
+    padding-left: 32px;
+    padding-bottom: 26px;
+    padding-right: 737px;
+}
+#icone-bloco {
+    position: absolute;
+    margin-top: 20.34px;
+    margin-left: 1101.93px;
+    margin-right: 26.82px;
+    margin-bottom: 20.8px;
+}
+.rodape {
+    width: 1440px;
+    height: 158px;
+    background-color: #235C43;
+    margin-top: 63px;
+}
+#logo-Rodape {
+    width: 151px;
+    height: 48px;
+    flex-shrink: 0;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 644px;
+    padding-right: 645px;
+}
+
+.direitos-reservados {
+    width: 1440px;
+    height: 45px;
+    background-color: #4D4D4D;
+}
+#direitos-Frase{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+    padding-left: 11px;
+    padding-left: 605px;
+    padding-right: 606px;
+}
+
