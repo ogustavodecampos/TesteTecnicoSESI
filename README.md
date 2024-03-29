@@ -1,0 +1,1 @@
+Teste técnico proposto para concorrer a uma vaga de estágio. O desafio consistia em criar uma página web que se assemelhasse à página inicial da empresa SESI, para a qual estava concorrendo à vaga. Foi solicitado que a página fosse desenvolvida utilizando HTML, CSS e JavaScript.
